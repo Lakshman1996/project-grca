@@ -1,30 +1,60 @@
-<div fxLayout="row wrap" fxLayoutAlign="center center" fxShow="true" fxHide="false">
-  <header>
-    <h1>Portal Name</h1>
-    <div fxLayout="row wrap" fxLayoutGap="20px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
-      <div fxLayout="column wrap" style="border:solid 1px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
-        <mat-accordion>
+<div fxLayout="row wrap" fxFlex="100" fxLayoutAlign="start start" fxShow="true" fxHide="false">
+  <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxFill>
+    <div fxLayout="row wrap" fxFlex="10" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+      <mat-toolbar color="primary" style="width:100%">
+        <div> <img class="logo" src="assets/Web/logo.png"></div>
+      </mat-toolbar>
+    </div>
+    <div fxLayout="row wrap" fxFlex="83" fxLayoutGap="20px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+      <div fxLayout="column wrap" fxLayoutGap="0.5em" fxLayoutAlign="start start" fxShow="true" fxHide="false">
+        <div fxLayout="row wrap" fxLayoutAlign="start center" fxShow="true" fxHide="false"><button mat-button routerLink="/home/entity-selection">
+            <mat-icon class="menu-items-spacing">select_all</mat-icon> <span> Select Entity </span>
+          </button></div>
+        <div fxLayout="row wrap" fxLayoutAlign="start center" fxShow="true" fxHide="false"><button mat-button routerLink="/home/risk-general">
+            <mat-icon class="menu-items-spacing">perm_identity</mat-icon> <span> General Details </span>
+          </button></div>
+        <div fxLayout="row wrap" fxLayoutAlign="start center" fxShow="true" fxHide="false"><button mat-button routerLink="/home/risk-roles">
+            <mat-icon class="menu-items-spacing">supervisor_account</mat-icon> <span> Risk Roles </span>
+          </button></div>
+        <div fxLayout="row wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><button mat-button routerLink="/home/risk-cause">
+            <mat-icon class="menu-items-spacing">view_headline</mat-icon> <span> Risk Causes </span>
+          </button></div>
+        <div fxLayout="row wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><button mat-button>
+            <mat-icon class="menu-items-spacing">how_to_reg</mat-icon> <span> Risk Consequences </span>
+          </button></div>
+        <div fxLayout="row wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><button mat-button>
+            <mat-icon class="menu-items-spacing">face</mat-icon> <span> Risk Dependency </span>
+          </button></div>
+        <div fxLayout="row wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><button mat-button>
+            <mat-icon class="menu-items-spacing">swap_horizontal_circle</mat-icon> <span> Risk Mitigation </span>
+          </button></div>
+        <div fxLayout="row wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><button mat-button>
+            <mat-icon class="menu-items-spacing">attach_file</mat-icon> <span> Risk Attachment </span>
+          </button></div>
+        <div fxLayout="row wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><button mat-button>
+            <mat-icon class="menu-items-spacing">history</mat-icon> <span> Risk History </span>
+          </button></div>
+        <mat-accordion fxHide="true">
           <mat-expansion-panel>
             <mat-accordion>
-              <button mat-button routerLink="/home/entity-selection">Select Entity</button>
               <mat-expansion-panel>
                 <div fxLayout="row wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
                   <mat-card>
-                    <mat-card-content><button mat-button routerLink="/home/risk-general">General Details</button></mat-card-content>
+                    <mat-card-content></mat-card-content>
 
-                    <mat-card-content><button mat-button routerLink="/home/risk-roles">Risk Roles</button></mat-card-content>
+                    <mat-card-content></mat-card-content>
 
-                    <mat-card-content><button mat-button routerLink="/home/risk-cause">Risk Causes</button></mat-card-content>
+                    <mat-card-content></mat-card-content>
 
-                    <mat-card-content><button mat-button>Risk Consequences</button></mat-card-content>
+                    <mat-card-content></mat-card-content>
 
-                    <mat-card-content><button mat-button>Risk Dependency</button></mat-card-content>
+                    <mat-card-content></mat-card-content>
 
-                    <mat-card-content><button mat-button>Risk Mitigation</button></mat-card-content>
+                    <mat-card-content></mat-card-content>
 
-                    <mat-card-content><button mat-button>Risk Attachment</button></mat-card-content>
+                    <mat-card-content></mat-card-content>
 
-                    <mat-card-content><button mat-button>Risk History</button></mat-card-content>
+                    <mat-card-content></mat-card-content>
                   </mat-card>
                 </div>
                 <mat-expansion-panel-header>
@@ -44,7 +74,7 @@
           </mat-expansion-panel>
         </mat-accordion>
       </div>
-      <div fxLayout="row wrap" style="border:solid 1px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+      <div fxLayout="row wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
         <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
           <div fxLayout="row wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
             <h4>
@@ -52,6 +82,7 @@
 Business Unit : {{shareddataService.selectedEntities.business_unit}}
 Function Name : {{shareddataService.selectedEntities.function_name}}
 Business Process: {{shareddataService.selectedEntities.business_process}} -->
+              Please select entities to get started
 
             </h4>
           </div>
@@ -59,5 +90,6 @@ Business Process: {{shareddataService.selectedEntities.business_process}} -->
         </div>
       </div>
     </div>
-  </header>
+    <header></header>
+  </div>
 </div>
