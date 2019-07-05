@@ -2503,7 +2503,7 @@
                                         },
                                         {
                                             "_key": "html",
-                                            "_value": "<!-- Entity name : {{shareddataService.selectedEntities.legal_entity_name}}\r\nBusiness Unit : {{shareddataService.selectedEntities.business_unit}}\r\nFunction Name : {{shareddataService.selectedEntities.function_name}}\r\nBusiness Process: {{shareddataService.selectedEntities.business_process}} -->\r\nPlease select entities to get started\r\n\r\n",
+                                            "_value": "<!-- Entity name : {{shareddataService.selectedEntities.legal_entity_name}}\r\nBusiness Unit : {{shareddataService.selectedEntities.business_unit}}\r\nFunction Name : {{shareddataService.selectedEntities.function_name}}\r\nBusiness Process: {{shareddataService.selectedEntities.business_process}} -->\r\n\r\n",
                                             "_type": "a",
                                             "_attrDef": "p"
                                         }
