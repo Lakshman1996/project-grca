@@ -1,0 +1,74 @@
+<form>
+  <div fxLayout="row wrap" fxLayoutGap="10px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+    <div fxLayout="column wrap" fxLayoutGap="10px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+      <div fxLayout="row wrap" fxLayoutGap="10px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+        <div> Role Name</div>
+        <mat-form-field>
+          <mat-select placeholder="Select role" required>
+            <mat-option></mat-option>
+          </mat-select>
+
+        </mat-form-field><button mat-mini-fab>
+          <mat-icon>add</mat-icon>
+        </button>
+      </div>
+    </div>
+    <div fxLayout="column wrap" fxLayoutGap="10px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+      <div fxLayout="row wrap" fxLayoutGap="10px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+        <div> Role Description</div>
+        <mat-form-field [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;">
+          <input matInput placeholder="Role Description" required readonly="true">
+
+        </mat-form-field>
+      </div>
+    </div>
+  </div>
+  <div fxLayout="row wrap" fxLayoutGap="10px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+    <div fxLayout="column wrap" fxLayoutGap="10px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+      <div fxLayout="row wrap" fxLayoutGap="10px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+        <div> User Name</div>
+        <mat-form-field [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;">
+          <input matInput placeholder="search user" required>
+
+        </mat-form-field>
+      </div>
+      <div fxLayout="row wrap" fxLayoutGap="10px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+        <div> Valid From</div>
+        <mat-form-field>
+          <input matInput placeholder="Select date" [matDatepicker]="picker1" required>
+          <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+          <mat-datepicker #picker1></mat-datepicker>
+
+        </mat-form-field>
+      </div>
+    </div>
+    <div fxLayout="column wrap" fxLayoutGap="10px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+      <div fxLayout="row wrap" fxLayoutGap="10px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+        <div> Employee ID</div>
+        <mat-form-field [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;">
+          <input matInput placeholder="Employee ID" required readonly="true">
+
+        </mat-form-field>
+      </div>
+      <div fxLayout="row wrap" fxLayoutGap="10px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+        <div> Valid Till</div>
+        <mat-form-field>
+          <input matInput placeholder="Select date" [matDatepicker]="picker" required>
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+
+        </mat-form-field>
+      </div>
+    </div>
+    <div fxLayout="column wrap" fxLayoutGap="10px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+      <div fxLayout="row wrap" fxLayoutGap="10px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+        <div> Org.Unit</div>
+        <mat-form-field [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;">
+          <input matInput placeholder="Org. Unit" required readonly="true">
+
+        </mat-form-field>
+      </div>
+    </div>
+  </div>
+  <div fxLayout="row wrap" class=".savedata" fxLayoutGap="10px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><button mat-raised-button>Save</button><button mat-raised-button>Cancel</button></div>
+</form>

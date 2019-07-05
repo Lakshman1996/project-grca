@@ -1,0 +1,45 @@
+<div fxLayout="column wrap" fxLayoutGap="10px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+  <form class="rowclass1">
+    <div fxLayout="row wrap" class="rowclass1 c" fxLayoutGap="10px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+      <div fxLayout="row wrap" fxFlex="40" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+        <p>Select Entity</p>
+      </div>
+      <div fxLayout="row wrap" fxFlex="50" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+        <mat-form-field>
+          <mat-select placeholder="Select" [(ngModel)]="dm.risk_master_coll.legal_entity_name" required name="dm.risk_master_coll.legal_entity_code">
+            <mat-option *ngFor="let list of dropdownList" [value]="list.legal_entity_name">{{list.legal_entity_name}}</mat-option>
+          </mat-select>
+
+        </mat-form-field>
+      </div>
+    </div>
+    <div fxLayout="row wrap" class="input-border" fxLayoutGap="10px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+      <p>Select Business Unit</p>
+      <mat-form-field>
+        <mat-select placeholder="Select" [(ngModel)]="dm.risk_master_coll.business_unit" required name="selected_business">
+          <mat-option *ngFor="let list of dropdownList" [value]="list.business_unit">{{list.business_unit}}</mat-option>
+        </mat-select>
+
+      </mat-form-field>
+    </div>
+    <div fxLayout="row wrap" class="input-border" fxLayoutGap="10px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+      <p>Select Function</p>
+      <mat-form-field>
+        <mat-select placeholder="Select" [(ngModel)]="dm.risk_master_coll.function_name" required name="selected_function">
+          <mat-option *ngFor="let list of dropdownList" [value]="list.function_name">{{list.function_name}}</mat-option>
+        </mat-select>
+
+      </mat-form-field>
+    </div>
+    <div fxLayout="row wrap" class="input-border" fxLayoutGap="10px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+      <p>Select Business Process</p>
+      <mat-form-field>
+        <mat-select placeholder="Select" [(ngModel)]="dm.risk_master_coll.business_process" required (selectionChange)="test()" name="selected_business_process">
+          <mat-option *ngFor="let list of dropdownList" [value]="list.business_process">{{list.business_process}}</mat-option>
+        </mat-select>
+
+      </mat-form-field>
+    </div>
+    <div fxLayout="row wrap" class="input-border" fxLayoutGap="10px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><button mat-raised-button>Save</button><button mat-raised-button>Cancel</button></div>
+  </form>
+</div>

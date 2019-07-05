@@ -1,0 +1,37 @@
+{
+    "82a54976-6102-2506-803d-f4393b1b9ce0": {
+        "appPageName": "mainpage",
+        "componentName": "mainpageComponent",
+        "isEntry": false
+    },
+    "a5760381-651f-78d5-721a-0873f3cd9021": {
+        "appPageName": "riskgeneral",
+        "componentName": "riskgeneralComponent",
+        "isEntry": false
+    },
+    "81ae09c2-e906-ec73-16be-9a3dcb16de1c": {
+        "appPageName": "selectentity",
+        "componentName": "selectentityComponent",
+        "isEntry": false
+    },
+    "1e4c7902-5b01-727a-30b0-3a0abd26076e": {
+        "appPageName": "riskcause",
+        "componentName": "riskcauseComponent",
+        "isEntry": false
+    },
+    "585c980e-40ee-b252-32a7-41976e2e3ef3": {
+        "appPageName": "login",
+        "componentName": "loginComponent",
+        "isEntry": false
+    },
+    "aca01362-3c85-bf40-bc3c-9e13d81ac542": {
+        "appPageName": "riskconsequence",
+        "componentName": "riskconsequenceComponent",
+        "isEntry": false
+    },
+    "de005412-5897-f5f3-c606-4fdab19357e2": {
+        "appPageName": "riskroles",
+        "componentName": "riskrolesComponent",
+        "isEntry": false
+    }
+}

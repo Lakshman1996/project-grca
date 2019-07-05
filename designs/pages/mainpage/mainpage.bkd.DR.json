@@ -1,0 +1,1781 @@
+{
+    "38665348-5197-a6c5-74f6-d80defa30a98": {
+        "paletteKey": "FlexLayoutRow",
+        "designerReference": [
+            {
+                "_key": "componentLabel",
+                "_value": "Row",
+                "_type": "kv",
+                "_attrDef": "p",
+                "_useAsLabel": true
+            },
+            {
+                "_key": "style",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "class",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "fxFlex",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "fxLayoutGap",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "wrap",
+                "_value": "wrap",
+                "_type": "a",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "layoutAlign",
+                "_value": "center",
+                "_type": "a",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "pLayoutAlign",
+                "_value": "center",
+                "_type": "a",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "fxShow",
+                "_value": "true",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "fxHide",
+                "_value": "false",
+                "_type": "kv",
+                "_attrDef": "p"
+            }
+        ],
+        "96735788-bf5e-35f3-ec70-3c1fb54989d1": {
+            "paletteKey": "NG-Header",
+            "parentEditorKey": "38665348-5197-a6c5-74f6-d80defa30a98",
+            "designerReference": [
+                {
+                    "_key": "componentLabel",
+                    "_value": "Header",
+                    "_type": "kv",
+                    "_attrDef": "p",
+                    "_useAsLabel": true
+                },
+                {
+                    "_key": "style",
+                    "_value": "",
+                    "_type": "kv",
+                    "_attrDef": "p"
+                },
+                {
+                    "_key": "class",
+                    "_value": "",
+                    "_type": "kv",
+                    "_attrDef": "p"
+                }
+            ],
+            "8a99be41-87ad-2329-3b86-1fd43746639f": {
+                "paletteKey": "NG-H1",
+                "parentEditorKey": "96735788-bf5e-35f3-ec70-3c1fb54989d1",
+                "designerReference": [
+                    {
+                        "_key": "style",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "class",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "H1 Text",
+                        "_value": "Portal Name",
+                        "_type": "a",
+                        "_attrDef": "p",
+                        "_useAsLabel": true
+                    },
+                    {
+                        "_key": "align",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    }
+                ]
+            },
+            "46f502a5-84dd-4cfc-2089-945f9b78d985": {
+                "paletteKey": "FlexLayoutRow",
+                "parentEditorKey": "96735788-bf5e-35f3-ec70-3c1fb54989d1",
+                "designerReference": [
+                    {
+                        "_key": "componentLabel",
+                        "_value": "Row",
+                        "_type": "kv",
+                        "_attrDef": "p",
+                        "_useAsLabel": true
+                    },
+                    {
+                        "_key": "style",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "class",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "fxFlex",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "fxLayoutGap",
+                        "_value": "20px",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "wrap",
+                        "_value": "wrap",
+                        "_type": "a",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "layoutAlign",
+                        "_value": "start",
+                        "_type": "a",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "pLayoutAlign",
+                        "_value": "stretch",
+                        "_type": "a",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "fxShow",
+                        "_value": "true",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "fxHide",
+                        "_value": "false",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    }
+                ],
+                "2d5a7c1e-18eb-1412-9953-3528ed6324a7": {
+                    "paletteKey": "FlexLayoutCol",
+                    "parentEditorKey": "46f502a5-84dd-4cfc-2089-945f9b78d985",
+                    "designerReference": [
+                        {
+                            "_key": "componentLabel",
+                            "_value": "Column",
+                            "_type": "kv",
+                            "_attrDef": "p",
+                            "_useAsLabel": true
+                        },
+                        {
+                            "_key": "style",
+                            "_value": "border:solid 1px",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "class",
+                            "_value": "",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "fxFlex",
+                            "_value": "",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "fxLayoutGap",
+                            "_value": "",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "wrap",
+                            "_value": "wrap",
+                            "_type": "a",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "layoutAlign",
+                            "_value": "start",
+                            "_type": "a",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "pLayoutAlign",
+                            "_value": "stretch",
+                            "_type": "a",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "fxShow",
+                            "_value": "true",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "fxHide",
+                            "_value": "false",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        }
+                    ],
+                    "2ab5e6a4-7da0-572e-ae71-1a2722c2f875": {
+                        "paletteKey": "NG-ExpansionAccordion",
+                        "parentEditorKey": "2d5a7c1e-18eb-1412-9953-3528ed6324a7",
+                        "designerReference": [
+                            {
+                                "_key": "componentLabel",
+                                "_value": "expanoutlet_main",
+                                "_type": "kv",
+                                "_attrDef": "p",
+                                "_useAsLabel": true
+                            },
+                            {
+                                "_key": "style",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "class",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "[displayMode]",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "multi",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            }
+                        ],
+                        "a07cf755-9f39-5c43-0453-b0e512d70520": {
+                            "paletteKey": "NG-ExpansionPanel",
+                            "parentEditorKey": "2ab5e6a4-7da0-572e-ae71-1a2722c2f875",
+                            "designerReference": [
+                                {
+                                    "_key": "componentLabel",
+                                    "_value": "expan_main",
+                                    "_type": "kv",
+                                    "_attrDef": "p",
+                                    "_useAsLabel": true
+                                },
+                                {
+                                    "_key": "style",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "class",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "*ngFor",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "(opened)",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "(closed)",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "hideToggle",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "[expanded]",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "(afterCollapse)",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "(afterExpand)",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "[disabled]",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "(destroyed)",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "id",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                }
+                            ],
+                            "31aee20c-ff10-9221-8bb5-d3581bac2823": {
+                                "paletteKey": "NG-ExpansionAccordion",
+                                "parentEditorKey": "a07cf755-9f39-5c43-0453-b0e512d70520",
+                                "designerReference": [
+                                    {
+                                        "_key": "componentLabel",
+                                        "_value": "expanoutlet_riskevent",
+                                        "_type": "kv",
+                                        "_attrDef": "p",
+                                        "_useAsLabel": true
+                                    },
+                                    {
+                                        "_key": "style",
+                                        "_value": "",
+                                        "_type": "kv",
+                                        "_attrDef": "p"
+                                    },
+                                    {
+                                        "_key": "class",
+                                        "_value": "",
+                                        "_type": "kv",
+                                        "_attrDef": "p"
+                                    },
+                                    {
+                                        "_key": "[displayMode]",
+                                        "_value": "",
+                                        "_type": "kv",
+                                        "_attrDef": "p"
+                                    },
+                                    {
+                                        "_key": "multi",
+                                        "_value": "",
+                                        "_type": "kv",
+                                        "_attrDef": "p"
+                                    }
+                                ],
+                                "e60254b4-3e1c-fb3c-5068-c83d3398a619": {
+                                    "paletteKey": "NG-button",
+                                    "parentEditorKey": "31aee20c-ff10-9221-8bb5-d3581bac2823",
+                                    "designerReference": [
+                                        {
+                                            "_key": "style",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        },
+                                        {
+                                            "_key": "class",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        },
+                                        {
+                                            "_key": "buttonname",
+                                            "_value": "Select Entity",
+                                            "_type": "a",
+                                            "_attrDef": "p",
+                                            "_useAsLabel": true
+                                        },
+                                        {
+                                            "_key": "color",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        },
+                                        {
+                                            "_key": "(click)",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        },
+                                        {
+                                            "_key": "[disabled]",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        },
+                                        {
+                                            "_key": "[disableRipple]",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        },
+                                        {
+                                            "_key": "type",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        },
+                                        {
+                                            "_key": "routerLink",
+                                            "_value": "/home/entity-selection",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        }
+                                    ]
+                                },
+                                "51d3f0d2-fc1a-9ddd-2e8f-9d4b1cf610fc": {
+                                    "paletteKey": "NG-ExpansionPanel",
+                                    "parentEditorKey": "31aee20c-ff10-9221-8bb5-d3581bac2823",
+                                    "designerReference": [
+                                        {
+                                            "_key": "componentLabel",
+                                            "_value": "expanel_createrisk",
+                                            "_type": "kv",
+                                            "_attrDef": "p",
+                                            "_useAsLabel": true
+                                        },
+                                        {
+                                            "_key": "style",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        },
+                                        {
+                                            "_key": "class",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        },
+                                        {
+                                            "_key": "*ngFor",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        },
+                                        {
+                                            "_key": "(opened)",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        },
+                                        {
+                                            "_key": "(closed)",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        },
+                                        {
+                                            "_key": "hideToggle",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        },
+                                        {
+                                            "_key": "[expanded]",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        },
+                                        {
+                                            "_key": "(afterCollapse)",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        },
+                                        {
+                                            "_key": "(afterExpand)",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        },
+                                        {
+                                            "_key": "[disabled]",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        },
+                                        {
+                                            "_key": "(destroyed)",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        },
+                                        {
+                                            "_key": "id",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        }
+                                    ],
+                                    "69791400-3a83-aa33-005a-65540a53704c": {
+                                        "paletteKey": "FlexLayoutRow",
+                                        "parentEditorKey": "51d3f0d2-fc1a-9ddd-2e8f-9d4b1cf610fc",
+                                        "designerReference": [
+                                            {
+                                                "_key": "componentLabel",
+                                                "_value": "Row",
+                                                "_type": "kv",
+                                                "_attrDef": "p",
+                                                "_useAsLabel": true
+                                            },
+                                            {
+                                                "_key": "style",
+                                                "_value": "",
+                                                "_type": "kv",
+                                                "_attrDef": "p"
+                                            },
+                                            {
+                                                "_key": "class",
+                                                "_value": "",
+                                                "_type": "kv",
+                                                "_attrDef": "p"
+                                            },
+                                            {
+                                                "_key": "fxFlex",
+                                                "_value": "",
+                                                "_type": "kv",
+                                                "_attrDef": "p"
+                                            },
+                                            {
+                                                "_key": "fxLayoutGap",
+                                                "_value": "",
+                                                "_type": "kv",
+                                                "_attrDef": "p"
+                                            },
+                                            {
+                                                "_key": "wrap",
+                                                "_value": "wrap",
+                                                "_type": "a",
+                                                "_attrDef": "p"
+                                            },
+                                            {
+                                                "_key": "layoutAlign",
+                                                "_value": "start",
+                                                "_type": "a",
+                                                "_attrDef": "p"
+                                            },
+                                            {
+                                                "_key": "pLayoutAlign",
+                                                "_value": "stretch",
+                                                "_type": "a",
+                                                "_attrDef": "p"
+                                            },
+                                            {
+                                                "_key": "fxShow",
+                                                "_value": "true",
+                                                "_type": "kv",
+                                                "_attrDef": "p"
+                                            },
+                                            {
+                                                "_key": "fxHide",
+                                                "_value": "false",
+                                                "_type": "kv",
+                                                "_attrDef": "p"
+                                            }
+                                        ],
+                                        "cc6ebd71-acab-0df5-9c3f-dd681a6a4f5a": {
+                                            "paletteKey": "ad-card",
+                                            "parentEditorKey": "69791400-3a83-aa33-005a-65540a53704c",
+                                            "isAdvancedComponent": true,
+                                            "designerReference": [
+                                                {
+                                                    "_key": "componentLabel",
+                                                    "_value": "Card",
+                                                    "_type": "kv",
+                                                    "_attrDef": "p",
+                                                    "_useAsLabel": true
+                                                },
+                                                {
+                                                    "_key": "style",
+                                                    "_value": "",
+                                                    "_type": "kv",
+                                                    "_attrDef": "p"
+                                                },
+                                                {
+                                                    "_key": "class",
+                                                    "_value": "",
+                                                    "_type": "kv",
+                                                    "_attrDef": "p"
+                                                },
+                                                {
+                                                    "_key": "tabindex",
+                                                    "_value": "",
+                                                    "_type": "kv",
+                                                    "_attrDef": "p"
+                                                }
+                                            ],
+                                            "87e068b5-d1ac-c7c0-a471-72a99922a4fc": {
+                                                "paletteKey": "ng-card-content",
+                                                "parentEditorKey": "cc6ebd71-acab-0df5-9c3f-dd681a6a4f5a",
+                                                "isAdvancedChildComponent": true,
+                                                "designerReference": [
+                                                    {
+                                                        "_key": "style",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    },
+                                                    {
+                                                        "_key": "class",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    },
+                                                    {
+                                                        "_key": "align",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    }
+                                                ],
+                                                "20d4028c-e9e2-9384-c568-2999ba3d83c1": {
+                                                    "paletteKey": "NG-button",
+                                                    "parentEditorKey": "87e068b5-d1ac-c7c0-a471-72a99922a4fc",
+                                                    "designerReference": [
+                                                        {
+                                                            "_key": "style",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "class",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "buttonname",
+                                                            "_value": "General Details",
+                                                            "_type": "a",
+                                                            "_attrDef": "p",
+                                                            "_useAsLabel": true
+                                                        },
+                                                        {
+                                                            "_key": "color",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "(click)",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "[disabled]",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "[disableRipple]",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "type",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "routerLink",
+                                                            "_value": "/home/risk-general",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "f6514592-6951-3af1-a3e2-361d7a1260d7": {
+                                                "paletteKey": "ng-card-content",
+                                                "parentEditorKey": "cc6ebd71-acab-0df5-9c3f-dd681a6a4f5a",
+                                                "isAdvancedChildComponent": true,
+                                                "designerReference": [
+                                                    {
+                                                        "_key": "style",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    },
+                                                    {
+                                                        "_key": "class",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    },
+                                                    {
+                                                        "_key": "align",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    }
+                                                ],
+                                                "9b879698-85b2-ceb7-b2b4-317eb098558f": {
+                                                    "paletteKey": "NG-button",
+                                                    "parentEditorKey": "f6514592-6951-3af1-a3e2-361d7a1260d7",
+                                                    "designerReference": [
+                                                        {
+                                                            "_key": "style",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "class",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "buttonname",
+                                                            "_value": "Risk Roles",
+                                                            "_type": "a",
+                                                            "_attrDef": "p",
+                                                            "_useAsLabel": true
+                                                        },
+                                                        {
+                                                            "_key": "color",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "(click)",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "[disabled]",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "[disableRipple]",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "type",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "routerLink",
+                                                            "_value": "/home/risk-roles",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "42bc3912-a201-584d-c18a-050a95b5fb49": {
+                                                "paletteKey": "ng-card-content",
+                                                "parentEditorKey": "cc6ebd71-acab-0df5-9c3f-dd681a6a4f5a",
+                                                "isAdvancedChildComponent": true,
+                                                "designerReference": [
+                                                    {
+                                                        "_key": "style",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    },
+                                                    {
+                                                        "_key": "class",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    },
+                                                    {
+                                                        "_key": "align",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    }
+                                                ],
+                                                "495dd7b3-fd76-dbf1-552b-c025d800ea1d": {
+                                                    "paletteKey": "NG-button",
+                                                    "parentEditorKey": "42bc3912-a201-584d-c18a-050a95b5fb49",
+                                                    "designerReference": [
+                                                        {
+                                                            "_key": "style",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "class",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "buttonname",
+                                                            "_value": "Risk Causes",
+                                                            "_type": "a",
+                                                            "_attrDef": "p",
+                                                            "_useAsLabel": true
+                                                        },
+                                                        {
+                                                            "_key": "color",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "(click)",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "[disabled]",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "[disableRipple]",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "type",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "routerLink",
+                                                            "_value": "/home/risk-cause",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "46867dd3-6305-4b9b-06c3-879d12d2f4f0": {
+                                                "paletteKey": "ng-card-content",
+                                                "parentEditorKey": "cc6ebd71-acab-0df5-9c3f-dd681a6a4f5a",
+                                                "isAdvancedChildComponent": true,
+                                                "designerReference": [
+                                                    {
+                                                        "_key": "style",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    },
+                                                    {
+                                                        "_key": "class",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    },
+                                                    {
+                                                        "_key": "align",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    }
+                                                ],
+                                                "b07af2c2-1095-bd1e-df88-18c3bb70a5c3": {
+                                                    "paletteKey": "NG-button",
+                                                    "parentEditorKey": "46867dd3-6305-4b9b-06c3-879d12d2f4f0",
+                                                    "designerReference": [
+                                                        {
+                                                            "_key": "style",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "class",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "buttonname",
+                                                            "_value": "Risk Consequences",
+                                                            "_type": "a",
+                                                            "_attrDef": "p",
+                                                            "_useAsLabel": true
+                                                        },
+                                                        {
+                                                            "_key": "color",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "(click)",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "[disabled]",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "[disableRipple]",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "type",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "routerLink",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "b34d05b6-1fcd-117b-984e-0470ab56a7dd": {
+                                                "paletteKey": "ng-card-content",
+                                                "parentEditorKey": "cc6ebd71-acab-0df5-9c3f-dd681a6a4f5a",
+                                                "isAdvancedChildComponent": true,
+                                                "designerReference": [
+                                                    {
+                                                        "_key": "style",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    },
+                                                    {
+                                                        "_key": "class",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    },
+                                                    {
+                                                        "_key": "align",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    }
+                                                ],
+                                                "eb937e68-5ca8-dbeb-3c87-16d3ba96f230": {
+                                                    "paletteKey": "NG-button",
+                                                    "parentEditorKey": "b34d05b6-1fcd-117b-984e-0470ab56a7dd",
+                                                    "designerReference": [
+                                                        {
+                                                            "_key": "style",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "class",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "buttonname",
+                                                            "_value": "Risk Dependency",
+                                                            "_type": "a",
+                                                            "_attrDef": "p",
+                                                            "_useAsLabel": true
+                                                        },
+                                                        {
+                                                            "_key": "color",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "(click)",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "[disabled]",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "[disableRipple]",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "type",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "routerLink",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "e0603f86-c662-dbe9-bad5-5a2ce6a159d6": {
+                                                "paletteKey": "ng-card-content",
+                                                "parentEditorKey": "cc6ebd71-acab-0df5-9c3f-dd681a6a4f5a",
+                                                "isAdvancedChildComponent": true,
+                                                "designerReference": [
+                                                    {
+                                                        "_key": "style",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    },
+                                                    {
+                                                        "_key": "class",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    },
+                                                    {
+                                                        "_key": "align",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    }
+                                                ],
+                                                "51f8ccea-3104-f690-f449-5c8bb9c79036": {
+                                                    "paletteKey": "NG-button",
+                                                    "parentEditorKey": "e0603f86-c662-dbe9-bad5-5a2ce6a159d6",
+                                                    "designerReference": [
+                                                        {
+                                                            "_key": "style",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "class",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "buttonname",
+                                                            "_value": "Risk Mitigation",
+                                                            "_type": "a",
+                                                            "_attrDef": "p",
+                                                            "_useAsLabel": true
+                                                        },
+                                                        {
+                                                            "_key": "color",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "(click)",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "[disabled]",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "[disableRipple]",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "type",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "routerLink",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "0f240334-2623-e5e9-a65a-efb4b7187e72": {
+                                                "paletteKey": "ng-card-content",
+                                                "parentEditorKey": "cc6ebd71-acab-0df5-9c3f-dd681a6a4f5a",
+                                                "isAdvancedChildComponent": true,
+                                                "designerReference": [
+                                                    {
+                                                        "_key": "style",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    },
+                                                    {
+                                                        "_key": "class",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    },
+                                                    {
+                                                        "_key": "align",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    }
+                                                ],
+                                                "1b8aede1-b099-331b-55ea-672198cf87ad": {
+                                                    "paletteKey": "NG-button",
+                                                    "parentEditorKey": "0f240334-2623-e5e9-a65a-efb4b7187e72",
+                                                    "designerReference": [
+                                                        {
+                                                            "_key": "style",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "class",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "buttonname",
+                                                            "_value": "Risk Attachment",
+                                                            "_type": "a",
+                                                            "_attrDef": "p",
+                                                            "_useAsLabel": true
+                                                        },
+                                                        {
+                                                            "_key": "color",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "(click)",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "[disabled]",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "[disableRipple]",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "type",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "routerLink",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "d0d30959-0d8e-235e-c3ce-b240e976aa4a": {
+                                                "paletteKey": "ng-card-content",
+                                                "parentEditorKey": "cc6ebd71-acab-0df5-9c3f-dd681a6a4f5a",
+                                                "isAdvancedChildComponent": true,
+                                                "designerReference": [
+                                                    {
+                                                        "_key": "style",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    },
+                                                    {
+                                                        "_key": "class",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    },
+                                                    {
+                                                        "_key": "align",
+                                                        "_value": "",
+                                                        "_type": "kv",
+                                                        "_attrDef": "p"
+                                                    }
+                                                ],
+                                                "b006206c-2528-34d2-de19-37cf6313fa7a": {
+                                                    "paletteKey": "NG-button",
+                                                    "parentEditorKey": "d0d30959-0d8e-235e-c3ce-b240e976aa4a",
+                                                    "designerReference": [
+                                                        {
+                                                            "_key": "style",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "class",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "buttonname",
+                                                            "_value": "Risk History",
+                                                            "_type": "a",
+                                                            "_attrDef": "p",
+                                                            "_useAsLabel": true
+                                                        },
+                                                        {
+                                                            "_key": "color",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "(click)",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "[disabled]",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "[disableRipple]",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "type",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        },
+                                                        {
+                                                            "_key": "routerLink",
+                                                            "_value": "",
+                                                            "_type": "kv",
+                                                            "_attrDef": "p"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "c8e43a27-4756-dcaf-2fe4-284c4f5d133e": {
+                                        "paletteKey": "NG-ExpansionPanelHeader",
+                                        "parentEditorKey": "51d3f0d2-fc1a-9ddd-2e8f-9d4b1cf610fc",
+                                        "designerReference": [
+                                            {
+                                                "_key": "componentLabel",
+                                                "_value": "Expansion Header",
+                                                "_type": "kv",
+                                                "_attrDef": "p",
+                                                "_useAsLabel": true
+                                            },
+                                            {
+                                                "_key": "style",
+                                                "_value": "",
+                                                "_type": "kv",
+                                                "_attrDef": "p"
+                                            },
+                                            {
+                                                "_key": "class",
+                                                "_value": "",
+                                                "_type": "kv",
+                                                "_attrDef": "p"
+                                            },
+                                            {
+                                                "_key": "[collapsedHeight]",
+                                                "_value": "",
+                                                "_type": "kv",
+                                                "_attrDef": "p"
+                                            },
+                                            {
+                                                "_key": "[expandedHeight]",
+                                                "_value": "",
+                                                "_type": "kv",
+                                                "_attrDef": "p"
+                                            }
+                                        ],
+                                        "69c935a7-08fc-ab58-be15-dc91dff542ec": {
+                                            "paletteKey": "NG-ExpansionPanelTitle",
+                                            "parentEditorKey": "c8e43a27-4756-dcaf-2fe4-284c4f5d133e",
+                                            "designerReference": [
+                                                {
+                                                    "_key": "componentLabel",
+                                                    "_value": "Expansion Title",
+                                                    "_type": "kv",
+                                                    "_attrDef": "p",
+                                                    "_useAsLabel": true
+                                                },
+                                                {
+                                                    "_key": "style",
+                                                    "_value": "",
+                                                    "_type": "kv",
+                                                    "_attrDef": "p"
+                                                },
+                                                {
+                                                    "_key": "class",
+                                                    "_value": "",
+                                                    "_type": "kv",
+                                                    "_attrDef": "p"
+                                                },
+                                                {
+                                                    "_key": "title",
+                                                    "_value": "Create Risk",
+                                                    "_type": "a",
+                                                    "_attrDef": "p"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            },
+                            "1dd7d8d8-033c-db9b-8470-130922588c12": {
+                                "paletteKey": "NG-ExpansionPanelHeader",
+                                "parentEditorKey": "a07cf755-9f39-5c43-0453-b0e512d70520",
+                                "designerReference": [
+                                    {
+                                        "_key": "componentLabel",
+                                        "_value": "Expansion Header",
+                                        "_type": "kv",
+                                        "_attrDef": "p",
+                                        "_useAsLabel": true
+                                    },
+                                    {
+                                        "_key": "style",
+                                        "_value": "",
+                                        "_type": "kv",
+                                        "_attrDef": "p"
+                                    },
+                                    {
+                                        "_key": "class",
+                                        "_value": "",
+                                        "_type": "kv",
+                                        "_attrDef": "p"
+                                    },
+                                    {
+                                        "_key": "[collapsedHeight]",
+                                        "_value": "",
+                                        "_type": "kv",
+                                        "_attrDef": "p"
+                                    },
+                                    {
+                                        "_key": "[expandedHeight]",
+                                        "_value": "",
+                                        "_type": "kv",
+                                        "_attrDef": "p"
+                                    }
+                                ],
+                                "27dfed15-4dea-878c-8a46-c253075ee28b": {
+                                    "paletteKey": "NG-ExpansionPanelTitle",
+                                    "parentEditorKey": "1dd7d8d8-033c-db9b-8470-130922588c12",
+                                    "designerReference": [
+                                        {
+                                            "_key": "componentLabel",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p",
+                                            "_useAsLabel": true
+                                        },
+                                        {
+                                            "_key": "style",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        },
+                                        {
+                                            "_key": "class",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        },
+                                        {
+                                            "_key": "title",
+                                            "_value": "Risk Event",
+                                            "_type": "a",
+                                            "_attrDef": "p"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "9890dfba-4d43-86c2-1024-1e202bd7c7df": {
+                    "paletteKey": "FlexLayoutRow",
+                    "parentEditorKey": "46f502a5-84dd-4cfc-2089-945f9b78d985",
+                    "designerReference": [
+                        {
+                            "_key": "componentLabel",
+                            "_value": "Row",
+                            "_type": "kv",
+                            "_attrDef": "p",
+                            "_useAsLabel": true
+                        },
+                        {
+                            "_key": "style",
+                            "_value": "border:solid 1px",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "class",
+                            "_value": "",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "fxFlex",
+                            "_value": "",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "fxLayoutGap",
+                            "_value": "",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "wrap",
+                            "_value": "wrap",
+                            "_type": "a",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "layoutAlign",
+                            "_value": "start",
+                            "_type": "a",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "pLayoutAlign",
+                            "_value": "stretch",
+                            "_type": "a",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "fxShow",
+                            "_value": "true",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        },
+                        {
+                            "_key": "fxHide",
+                            "_value": "false",
+                            "_type": "kv",
+                            "_attrDef": "p"
+                        }
+                    ],
+                    "18e5c2f4-48a1-911a-90e6-24372bb70c0a": {
+                        "paletteKey": "FlexLayoutCol",
+                        "parentEditorKey": "9890dfba-4d43-86c2-1024-1e202bd7c7df",
+                        "designerReference": [
+                            {
+                                "_key": "componentLabel",
+                                "_value": "Column",
+                                "_type": "kv",
+                                "_attrDef": "p",
+                                "_useAsLabel": true
+                            },
+                            {
+                                "_key": "style",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "class",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "fxFlex",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "fxLayoutGap",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "wrap",
+                                "_value": "wrap",
+                                "_type": "a",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "layoutAlign",
+                                "_value": "start",
+                                "_type": "a",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "pLayoutAlign",
+                                "_value": "stretch",
+                                "_type": "a",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "fxShow",
+                                "_value": "true",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "fxHide",
+                                "_value": "false",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            }
+                        ],
+                        "05c90b9d-2150-6d05-eccf-b0c741596b70": {
+                            "paletteKey": "FlexLayoutRow",
+                            "parentEditorKey": "18e5c2f4-48a1-911a-90e6-24372bb70c0a",
+                            "designerReference": [
+                                {
+                                    "_key": "componentLabel",
+                                    "_value": "Row",
+                                    "_type": "kv",
+                                    "_attrDef": "p",
+                                    "_useAsLabel": true
+                                },
+                                {
+                                    "_key": "style",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "class",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "fxFlex",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "fxLayoutGap",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "wrap",
+                                    "_value": "wrap",
+                                    "_type": "a",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "layoutAlign",
+                                    "_value": "start",
+                                    "_type": "a",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "pLayoutAlign",
+                                    "_value": "stretch",
+                                    "_type": "a",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "fxShow",
+                                    "_value": "true",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "fxHide",
+                                    "_value": "false",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                }
+                            ],
+                            "9359ebb1-a42e-06f8-d411-dc53f429047b": {
+                                "paletteKey": "Html5",
+                                "parentEditorKey": "05c90b9d-2150-6d05-eccf-b0c741596b70",
+                                "isAdvancedComponent": true,
+                                "designerReference": [
+                                    {
+                                        "_key": "style",
+                                        "_value": "",
+                                        "_type": "kv",
+                                        "_attrDef": "p"
+                                    },
+                                    {
+                                        "_key": "class",
+                                        "_value": "",
+                                        "_type": "kv",
+                                        "_attrDef": "p"
+                                    },
+                                    {
+                                        "_key": "htmlElement",
+                                        "_value": "h4",
+                                        "_type": "a",
+                                        "_attrDef": "p",
+                                        "_useAsLabel": true
+                                    }
+                                ],
+                                "95d3ea73-75a8-62d2-8ab4-76a1cee57aec": {
+                                    "paletteKey": "html-editor",
+                                    "parentEditorKey": "9359ebb1-a42e-06f8-d411-dc53f429047b",
+                                    "isAdvancedChildComponent": true,
+                                    "designerReference": [
+                                        {
+                                            "_key": "style",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        },
+                                        {
+                                            "_key": "class",
+                                            "_value": "",
+                                            "_type": "kv",
+                                            "_attrDef": "p"
+                                        },
+                                        {
+                                            "_key": "html",
+                                            "_value": "<!-- Entity name : {{shareddataService.selectedEntities.legal_entity_name}}\r\nBusiness Unit : {{shareddataService.selectedEntities.business_unit}}\r\nFunction Name : {{shareddataService.selectedEntities.function_name}}\r\nBusiness Process: {{shareddataService.selectedEntities.business_process}} -->\r\n\r\n",
+                                            "_type": "a",
+                                            "_attrDef": "p"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "b68ba6d8-592f-94a5-2971-bd61156e6376": {
+                            "paletteKey": "NG-RouterOutlet",
+                            "parentEditorKey": "18e5c2f4-48a1-911a-90e6-24372bb70c0a",
+                            "designerReference": [
+                                {
+                                    "_key": "componentLabel",
+                                    "_value": "Router Outlet",
+                                    "_type": "kv",
+                                    "_attrDef": "p",
+                                    "_useAsLabel": true
+                                },
+                                {
+                                    "_key": "style",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "class",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "(activate)",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "(deactivate)",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "isActivated",
+                                    "_value": "",
+                                    "_type": "kv",
+                                    "_attrDef": "p"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

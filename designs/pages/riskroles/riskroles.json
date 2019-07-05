@@ -1,0 +1,13 @@
+{
+    "appPageId": "de005412-5897-f5f3-c606-4fdab19357e2",
+    "appPageName": "riskroles",
+    "componentName": "riskrolesComponent",
+    "selectorName": "bh-riskroles",
+    "htmlFileName": "riskroles.template.html",
+    "tsFileName": "riskroles.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

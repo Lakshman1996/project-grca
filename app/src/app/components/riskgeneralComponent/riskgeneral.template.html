@@ -1,0 +1,59 @@
+<div fxLayout="column wrap" fxLayoutAlign="center center" fxShow="true" fxHide="false">
+  <form>
+    <div fxLayout="row wrap" fxLayoutGap="20px" fxLayoutAlign="center center" fxShow="true" fxHide="false">
+      <div fxLayout="column wrap" fxLayoutAlign="center center" fxShow="true" fxHide="false">
+        <div fxLayout="row wrap" fxLayoutGap="10px" fxLayoutAlign="center center" fxShow="true" fxHide="false">
+          <p>Risk Title</p>
+          <mat-form-field [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;">
+            <input matInput [(ngModel)]="dm.risk_general_coll.risk_title" placeholder="Input" required>
+
+          </mat-form-field>
+        </div>
+        <div fxLayout="row wrap" fxLayoutGap="10px" fxLayoutAlign="center center" fxShow="true" fxHide="false">
+          <p>Valid From</p>
+          <mat-form-field>
+            <input matInput placeholder="Date Picker" [matDatepicker]="picker1" [(ngModel)]="dm.risk_general_coll.valid_from" required>
+            <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+            <mat-datepicker #picker1></mat-datepicker>
+
+          </mat-form-field>
+        </div>
+        <div fxLayout="row wrap" fxLayoutGap="10px" fxLayoutAlign="center center" fxShow="true" fxHide="false">
+          <p>Created By</p>
+          <mat-form-field [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;">
+            <input matInput [(ngModel)]="dm.risk_general_coll.created_by" placeholder="Input" required>
+
+          </mat-form-field>
+        </div>
+      </div>
+      <div fxLayout="column wrap" fxLayoutAlign="center center" fxShow="true" fxHide="false">
+        <div fxLayout="row wrap" fxLayoutGap="10px" fxLayoutAlign="center center" fxShow="true" fxHide="false">
+          <p>Risk Description</p>
+          <mat-form-field [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;">
+            <input matInput [(ngModel)]="dm.risk_general_coll.risk_desc" placeholder="Input" required>
+
+          </mat-form-field>
+        </div>
+        <div fxLayout="row wrap" fxLayoutGap="10px" fxLayoutAlign="center center" fxShow="true" fxHide="false">
+          <p>Valid To</p>
+          <mat-form-field>
+            <input matInput placeholder="Date Picker" [matDatepicker]="picker2" [(ngModel)]="dm.risk_general_coll.valid_to" required>
+            <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+            <mat-datepicker #picker2></mat-datepicker>
+
+          </mat-form-field>
+        </div>
+        <div fxLayout="row wrap" fxLayoutGap="10px" fxLayoutAlign="center center" fxShow="true" fxHide="false">
+          <p>Created Date</p>
+          <mat-form-field>
+            <input matInput placeholder="Date Picker" [matDatepicker]="picker3" [(ngModel)]="dm.risk_general_coll.created_date" required>
+            <mat-datepicker-toggle matSuffix [for]="picker3"></mat-datepicker-toggle>
+            <mat-datepicker #picker3></mat-datepicker>
+
+          </mat-form-field>
+        </div>
+      </div>
+    </div>
+    <div fxLayout="row wrap" fxLayoutGap="20px" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><button mat-raised-button (click)="put(&apos;risk_general_coll&apos;, dm.risk_general_coll)">Save</button><button mat-raised-button>Cancel</button></div>
+  </form>
+</div>

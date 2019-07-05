@@ -1,0 +1,20 @@
+<mat-form-field>
+  <input matInput [(ngModel)]="dm.user.username" placeholder="Input" required>
+
+</mat-form-field>
+<mat-form-field>
+  <input matInput [(ngModel)]="dm.user.password" type="password" placeholder="Input" required>
+
+</mat-form-field><button mat-button (click)="login()">Button</button>
+<mat-form-field>
+  <input matInput [(ngModel)]="dm.risk_role_master_coll.rolename" placeholder="Input" required>
+
+</mat-form-field>
+<mat-form-field>
+  <input matInput [(ngModel)]="dm.risk_role_master_coll.role_desc" placeholder="Input" required>
+
+</mat-form-field>
+<mat-form-field>
+  <input matInput [(ngModel)]="dm.risk_role_master_coll.risk_roleid" type="number" placeholder="Input" required>
+
+</mat-form-field><button mat-raised-button (click)="put(&apos;risk_role_master_coll&apos;, dm.risk_role_master_coll)">DB test</button>

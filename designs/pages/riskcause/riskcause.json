@@ -1,0 +1,13 @@
+{
+    "appPageId": "1e4c7902-5b01-727a-30b0-3a0abd26076e",
+    "appPageName": "riskcause",
+    "componentName": "riskcauseComponent",
+    "selectorName": "bh-riskcause",
+    "htmlFileName": "riskcause.template.html",
+    "tsFileName": "riskcause.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "appPageId": "81ae09c2-e906-ec73-16be-9a3dcb16de1c",
+    "appPageName": "selectentity",
+    "componentName": "selectentityComponent",
+    "selectorName": "bh-selectentity",
+    "htmlFileName": "selectentity.template.html",
+    "tsFileName": "selectentity.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

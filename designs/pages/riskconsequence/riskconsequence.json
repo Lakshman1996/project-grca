@@ -1,0 +1,13 @@
+{
+    "appPageId": "aca01362-3c85-bf40-bc3c-9e13d81ac542",
+    "appPageName": "riskconsequence",
+    "componentName": "riskconsequenceComponent",
+    "selectorName": "bh-riskconsequence",
+    "htmlFileName": "riskconsequence.template.html",
+    "tsFileName": "riskconsequence.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

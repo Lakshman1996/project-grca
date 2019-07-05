@@ -1,0 +1,13 @@
+{
+    "appPageId": "a5760381-651f-78d5-721a-0873f3cd9021",
+    "appPageName": "riskgeneral",
+    "componentName": "riskgeneralComponent",
+    "selectorName": "bh-riskgeneral",
+    "htmlFileName": "riskgeneral.template.html",
+    "tsFileName": "riskgeneral.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

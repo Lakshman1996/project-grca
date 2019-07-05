@@ -1,0 +1,10 @@
+export * from '../models';
+export { risk_general_coll } from './risk_general_coll.model';
+export { risk_master_coll } from './risk_master_coll.model';
+export { risk_role_master_coll } from './risk_role_master_coll.model';
+export { risk_role_coll } from './risk_role_coll.model';
+export { user } from './user.model';
+export { risk_causecat_master_coll } from './risk_causecat_master_coll.model';
+export { risk_conseq_master_coll } from './risk_conseq_master_coll.model';
+export { risk_cause_coll } from './risk_cause_coll.model';
+export { risk_consequence_coll } from './risk_consequence_coll.model';

@@ -1,0 +1,42 @@
+{
+    "routes": [
+        {
+            "path": "home",
+            "component": "mainpageComponent",
+            "children": [
+                {
+                    "path": "entity-selection",
+                    "component": "selectentityComponent"
+                },
+                {
+                    "path": "risk-general",
+                    "component": "riskgeneralComponent"
+                },
+                {
+                    "path": "risk-cause",
+                    "component": "riskcauseComponent"
+                },
+                {
+                    "path": "risk-roles",
+                    "component": "riskrolesComponent"
+                }
+            ]
+        },
+        {
+            "path": "login",
+            "component": "loginComponent",
+            "children": []
+        },
+        {
+            "path": "''",
+            "redirectTo": "/home",
+            "pathMatch": "full",
+            "default": true
+        },
+        {
+            "path": "**",
+            "component": "",
+            "redirectTo": "/riskgeneral"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "dataSource": {
+        "risk_general_coll": "reliance-industries-limited-rt",
+        "risk_master_coll": "reliance-industries-limited-rt",
+        "risk_role_master_coll": "reliance-industries-limited-rt",
+        "risk_role_coll": "reliance-industries-limited-rt",
+        "user": "reliance-industries-limited-rt",
+        "risk_causecat_master_coll": "reliance-industries-limited-rt",
+        "risk_conseq_master_coll": "reliance-industries-limited-rt",
+        "risk_cause_coll": "reliance-industries-limited-rt",
+        "risk_consequence_coll": "reliance-industries-limited-rt"
+    }
+}

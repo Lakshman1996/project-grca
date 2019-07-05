@@ -1,0 +1,862 @@
+{
+    "2bb7ec1a-24e9-f286-18d5-2a38cddbc48f": {
+        "paletteKey": "NG-Input",
+        "isAdvancedComponent": true,
+        "designerReference": [
+            {
+                "_key": "style",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "class",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "placeholder",
+                "_value": "Input",
+                "_type": "kv",
+                "_attrDef": "p",
+                "_useAsLabel": true
+            },
+            {
+                "_key": "value",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "required",
+                "_value": "required",
+                "_type": "a",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "[(ngModel)]",
+                "_value": "dm.user.username",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "color",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "name",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "type",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "[formControl]",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "readonly",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "[disabled]",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "id",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "matError",
+                "_value": [],
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "inputHint",
+                "_value": [],
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "(prefixIconClick)",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "(suffixIconClick)",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Label",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Suffix Icon",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Prefix Icon",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Prefix",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Suffix",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            }
+        ]
+    },
+    "1d7d609a-94b6-4328-a791-99ff5872404b": {
+        "paletteKey": "NG-Input",
+        "isAdvancedComponent": true,
+        "designerReference": [
+            {
+                "_key": "style",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "class",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "placeholder",
+                "_value": "Input",
+                "_type": "kv",
+                "_attrDef": "p",
+                "_useAsLabel": true
+            },
+            {
+                "_key": "value",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "required",
+                "_value": "required",
+                "_type": "a",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "[(ngModel)]",
+                "_value": "dm.user.password",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "color",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "name",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "type",
+                "_value": "password",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "[formControl]",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "readonly",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "[disabled]",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "id",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "matError",
+                "_value": [],
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "inputHint",
+                "_value": [],
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "(prefixIconClick)",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "(suffixIconClick)",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Label",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Suffix Icon",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Prefix Icon",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Prefix",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Suffix",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            }
+        ]
+    },
+    "2ac16b47-131a-47ce-a64a-0e93341be9f3": {
+        "paletteKey": "NG-button",
+        "designerReference": [
+            {
+                "_key": "style",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "class",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "buttonname",
+                "_value": "Button",
+                "_type": "a",
+                "_attrDef": "p",
+                "_useAsLabel": true
+            },
+            {
+                "_key": "color",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "(click)",
+                "_value": "login()",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "[disabled]",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "[disableRipple]",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "type",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "routerLink",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            }
+        ]
+    },
+    "ff11af85-c3cd-237b-6bf6-2e6ea01c5dd9": {
+        "paletteKey": "NG-Input",
+        "isAdvancedComponent": true,
+        "designerReference": [
+            {
+                "_key": "style",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "class",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "placeholder",
+                "_value": "Input",
+                "_type": "kv",
+                "_attrDef": "p",
+                "_useAsLabel": true
+            },
+            {
+                "_key": "value",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "required",
+                "_value": "required",
+                "_type": "a",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "[(ngModel)]",
+                "_value": "dm.risk_role_master_coll.rolename",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "color",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "name",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "type",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "[formControl]",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "readonly",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "[disabled]",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "id",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "matError",
+                "_value": [],
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "inputHint",
+                "_value": [],
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "(prefixIconClick)",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "(suffixIconClick)",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Label",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Suffix Icon",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Prefix Icon",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Prefix",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Suffix",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            }
+        ]
+    },
+    "0ca4c9c6-2ff8-6c98-adc1-4e627f87cfe6": {
+        "paletteKey": "NG-Input",
+        "isAdvancedComponent": true,
+        "designerReference": [
+            {
+                "_key": "style",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "class",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "placeholder",
+                "_value": "Input",
+                "_type": "kv",
+                "_attrDef": "p",
+                "_useAsLabel": true
+            },
+            {
+                "_key": "value",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "required",
+                "_value": "required",
+                "_type": "a",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "[(ngModel)]",
+                "_value": "dm.risk_role_master_coll.role_desc",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "color",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "name",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "type",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "[formControl]",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "readonly",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "[disabled]",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "id",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "matError",
+                "_value": [],
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "inputHint",
+                "_value": [],
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "(prefixIconClick)",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "(suffixIconClick)",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Label",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Suffix Icon",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Prefix Icon",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Prefix",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Suffix",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            }
+        ]
+    },
+    "0d19d77a-bc0d-3531-6bc0-eaad577675c5": {
+        "paletteKey": "NG-Input",
+        "isAdvancedComponent": true,
+        "designerReference": [
+            {
+                "_key": "style",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "class",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "placeholder",
+                "_value": "Input",
+                "_type": "kv",
+                "_attrDef": "p",
+                "_useAsLabel": true
+            },
+            {
+                "_key": "value",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "required",
+                "_value": "required",
+                "_type": "a",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "[(ngModel)]",
+                "_value": "dm.risk_role_master_coll.risk_roleid",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "color",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "name",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "type",
+                "_value": "number",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "[formControl]",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "readonly",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "[disabled]",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "id",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "matError",
+                "_value": [],
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "inputHint",
+                "_value": [],
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "(prefixIconClick)",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "(suffixIconClick)",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Label",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Suffix Icon",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Prefix Icon",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Prefix",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            },
+            {
+                "_key": "Suffix",
+                "_value": "",
+                "_type": "a",
+                "_attrDef": "p",
+                "_visibility": true
+            }
+        ]
+    },
+    "1253762f-1c7b-ad56-a958-aef2beaf9cd6": {
+        "paletteKey": "NG-RaisedButton",
+        "designerReference": [
+            {
+                "_key": "style",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "class",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "buttonname",
+                "_value": "DB test",
+                "_type": "a",
+                "_attrDef": "p",
+                "_useAsLabel": true
+            },
+            {
+                "_key": "color",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "(click)",
+                "_value": "put('risk_role_master_coll', dm.risk_role_master_coll)",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "[disabled]",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "[disableRipple]",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "type",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            },
+            {
+                "_key": "routerLink",
+                "_value": "",
+                "_type": "kv",
+                "_attrDef": "p"
+            }
+        ]
+    }
+}

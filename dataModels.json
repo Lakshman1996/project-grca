@@ -1,0 +1,255 @@
+{
+    "7e293bb4-65be-cb57-729b-50cb38d0fab2": {
+        "dataModelId": "7e293bb4-65be-cb57-729b-50cb38d0fab2",
+        "name": "risk_general_coll",
+        "description": "risk_general collection",
+        "dataSource": "reliance-industries-limited-rt",
+        "fields": [
+            {
+                "name": "risk_id",
+                "fieldType": 1,
+                "isArray": false
+            },
+            {
+                "name": "risk_title",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "risk_desc",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "valid_from",
+                "fieldType": 3,
+                "isArray": false
+            },
+            {
+                "name": "valid_to",
+                "fieldType": 3,
+                "isArray": false
+            },
+            {
+                "name": "risk_category",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "risk_status",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "created_by",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "created_date",
+                "fieldType": 3,
+                "isArray": false
+            },
+            {
+                "name": "process_id",
+                "fieldType": 1,
+                "isArray": false
+            }
+        ]
+    },
+    "473f139a-40b1-5a3d-2495-00e98666d75c": {
+        "dataModelId": "473f139a-40b1-5a3d-2495-00e98666d75c",
+        "name": "risk_master_coll",
+        "description": "risk master collection",
+        "dataSource": "reliance-industries-limited-rt",
+        "fields": [
+            {
+                "name": "legal_entity_name",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "legal_entity_code",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "business_unit",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "function_name",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "business_process",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "process_id",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "function_id",
+                "fieldType": 2,
+                "isArray": false
+            }
+        ]
+    },
+    "ec6e7b8a-d2a6-ff12-a5e0-cd5e9d8d44cb": {
+        "dataModelId": "ec6e7b8a-d2a6-ff12-a5e0-cd5e9d8d44cb",
+        "name": "risk_role_master_coll",
+        "description": "risk role master collection",
+        "dataSource": "reliance-industries-limited-rt",
+        "fields": [
+            {
+                "name": "risk_roleid",
+                "fieldType": 1,
+                "isArray": false
+            },
+            {
+                "name": "rolename",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "role_desc",
+                "fieldType": 2,
+                "isArray": false
+            }
+        ]
+    },
+    "18b34c70-aeda-8a25-74ab-99bb0fa09a30": {
+        "dataModelId": "18b34c70-aeda-8a25-74ab-99bb0fa09a30",
+        "name": "risk_role_coll",
+        "description": "risk roles collection",
+        "dataSource": "reliance-industries-limited-rt",
+        "fields": [
+            {
+                "name": "risk_id",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "risk_roleid",
+                "fieldType": 1,
+                "isArray": false
+            },
+            {
+                "name": "username",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "userempid",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "userorgunit",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "valid_from",
+                "fieldType": 3,
+                "isArray": false
+            },
+            {
+                "name": "valid_till",
+                "fieldType": 3,
+                "isArray": false
+            },
+            {
+                "name": "active",
+                "fieldType": 2,
+                "isArray": false
+            }
+        ]
+    },
+    "0ff6cb8a-1062-7c2c-daa3-100221c6ac62": {
+        "dataModelId": "0ff6cb8a-1062-7c2c-daa3-100221c6ac62",
+        "name": "user",
+        "description": "user",
+        "dataSource": "reliance-industries-limited-rt",
+        "fields": [
+            {
+                "name": "username",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "password",
+                "fieldType": 2,
+                "isArray": false
+            }
+        ]
+    },
+    "599a7f9b-f0a6-eb8f-38ef-0694bfdd6863": {
+        "dataModelId": "599a7f9b-f0a6-eb8f-38ef-0694bfdd6863",
+        "name": "risk_causecat_master_coll",
+        "description": "risk cause category master",
+        "dataSource": "reliance-industries-limited-rt",
+        "fields": [
+            {
+                "name": "risk_cause_id",
+                "fieldType": 1,
+                "isArray": false
+            },
+            {
+                "name": "cause_category",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "cause_desc",
+                "fieldType": 2,
+                "isArray": false
+            }
+        ]
+    },
+    "5868f893-4c01-a680-3c84-c80e820e52cf": {
+        "dataModelId": "5868f893-4c01-a680-3c84-c80e820e52cf",
+        "name": "risk_conseq_master_coll",
+        "description": "risk consequence master",
+        "dataSource": "reliance-industries-limited-rt",
+        "fields": []
+    },
+    "44dbb33c-c065-76ab-18a5-7a585a0a3474": {
+        "dataModelId": "44dbb33c-c065-76ab-18a5-7a585a0a3474",
+        "name": "risk_cause_coll",
+        "description": "risk cause collection",
+        "dataSource": "reliance-industries-limited-rt",
+        "fields": [
+            {
+                "name": "risk_id",
+                "fieldType": 1,
+                "isArray": false,
+                "type": "number"
+            },
+            {
+                "name": "risk_cause_id",
+                "fieldType": 1,
+                "isArray": false,
+                "type": "number"
+            },
+            {
+                "name": "cause_details",
+                "fieldType": 2,
+                "isArray": false,
+                "type": "string"
+            }
+        ]
+    },
+    "71cc261c-ef5b-c4c7-5dc9-04691b449dec": {
+        "dataModelId": "71cc261c-ef5b-c4c7-5dc9-04691b449dec",
+        "name": "risk_consequence_coll",
+        "description": "risk consequnce collection",
+        "dataSource": "reliance-industries-limited-rt",
+        "fields": []
+    }
+}
